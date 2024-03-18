@@ -90,18 +90,18 @@ p {
 
 #Home h1 {
   transform: translateY(-50px);
-  /* Initial position */
+  
   opacity: 0;
-  /* Initially hidden */
+  
   transition: transform 1s ease, opacity 1s ease;
-  /* Animation duration and easing */
+  
 }
 
 #Home h1.show {
   transform: translateY(0);
-  /* Final position */
+  /
   opacity: 1;
-  /* Show the element */
+  
 }
 
 @keyframes fadeIn {
@@ -116,8 +116,7 @@ p {
   }
 }
 
-/* Apply fadeIn animation to elements */
-.fadeIn {
+
   animation: fadeIn 1s ease forwards;
 }
 
