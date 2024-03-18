@@ -58,7 +58,7 @@ html {
 }
 
 .Home {
-  background-image: url(./images/hmeback.png);
+  background-image: url(./images/hmeback.jpg);
   background-size: cover;
   object-fit: cover;
   height: calc(100vh - 65px);
